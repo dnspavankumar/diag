@@ -59,7 +59,7 @@ def call_gpt4_model_for_analysis(filename):
 
     try:
         response = client.chat.completions.create(
-            model="gpt-4-turbo-vision",
+            model="gpt-4o-mini",
             messages=messages,
             max_tokens=1500
         )
